@@ -1,20 +1,328 @@
 [
-  {"id":"grocery_01","name":"Haggen","type":"supermarket","address":"210 36th St, Bellingham, WA 98225","latitude":48.732674,"longitude":-122.471785,"price_tier":"$$","ebt":true,"website":"https://local.haggen.com/wa/bellingham/210-36th-st.html","hours_url":"https://local.haggen.com/wa/bellingham/210-36th-st.html","tags":["bus-accessible","local-produce","organic","student-popular"]},
-  {"id":"grocery_02","name":"Haggen","type":"supermarket","address":"1401 12th St, Bellingham, WA 98225","latitude":48.719084,"longitude":-122.50142,"price_tier":"$$","ebt":true,"website":"https://local.haggen.com/wa/bellingham/1401-12th-st.html","hours_url":"https://local.haggen.com/wa/bellingham/1401-12th-st.html","tags":["bus-accessible","local-produce","organic","student-popular"]},
-  {"id":"grocery_03","name":"Haggen","type":"supermarket","address":"2814 Meridian St, Bellingham, WA 98225","latitude":48.767671,"longitude":-122.484351,"price_tier":"$$","ebt":true,"website":"https://local.haggen.com/wa/bellingham/2814-meridian-st.html","hours_url":"https://local.haggen.com/wa/bellingham/2814-meridian-st.html","tags":["bus-accessible","local-produce","organic","student-popular"]},
-  {"id":"grocery_04","name":"Safeway","type":"supermarket","address":"1275 E Sunset Dr, Bellingham, WA 98226","latitude":48.7745687,"longitude":-122.4585344,"price_tier":"$$","ebt":true,"website":"https://local.safeway.com/safeway/wa/bellingham/1275-e-sunset-dr.html","hours_url":"https://local.safeway.com/safeway/wa/bellingham/1275-e-sunset-dr.html","tags":["bus-accessible","late-hours","student-popular"]},
-  {"id":"grocery_05","name":"Fred Meyer","type":"supermarket","address":"800 Lakeway Dr, Bellingham, WA 98229","latitude":48.7435668,"longitude":-122.4644652,"price_tier":"$$","ebt":true,"website":"https://www.fredmeyer.com/stores/grocery/wa/bellingham/bellingham/701/00025?cid=loc_70100025_gmb","hours_url":"https://www.fredmeyer.com/stores/grocery/wa/bellingham/bellingham/701/00025?cid=loc_70100025_gmb","tags":["bus-accessible","late-hours","warehouse-size","student-popular"]},
-  {"id":"grocery_06","name":"Fred Meyer","type":"supermarket","address":"1225 W Bakerview Rd, Bellingham, WA 98226","latitude":48.7885061,"longitude":-122.5115463,"price_tier":"$$","ebt":true,"website":"https://www.fredmeyer.com/stores/grocery/wa/bellingham/north-bellingham/701/00667?cid=loc_70100667_gmb","hours_url":"https://www.fredmeyer.com/stores/grocery/wa/bellingham/north-bellingham/701/00667?cid=loc_70100667_gmb","tags":["bus-accessible","late-hours","warehouse-size","student-popular"]},
-  {"id":"grocery_07","name":"Community Food Co-op","type":"co-op","address":"1220 N Forest St, Bellingham, WA 98225","latitude":48.7473549,"longitude":-122.4762175,"price_tier":"$$","ebt":true,"website":"https://communityfood.coop/","hours_url":"https://communityfood.coop/","tags":["bus-accessible","organic","local-produce","premium-pricing"]},
-  {"id":"grocery_08","name":"Grocery Outlet","type":"discount","address":"1600 Ellis St, Bellingham, WA 98225","latitude":48.7509716,"longitude":-122.470626,"price_tier":"$","ebt":true,"website":"https://www.groceryoutlet.com/circulars/storeid/115","hours_url":"https://www.groceryoutlet.com/circulars/storeid/115","tags":["bus-accessible","discount-pricing","student-popular"]},
-  {"id":"grocery_09","name":"Trader Joe's","type":"specialty","address":"2410 James St, Bellingham, WA 98225","latitude":48.762185,"longitude":-122.464044,"price_tier":"$$","ebt":true,"website":"https://locations.traderjoes.com/wa/bellingham/151/?utm_source=gmb&utm_medium=organic&utm_campaign=local","hours_url":"https://locations.traderjoes.com/wa/bellingham/151/?utm_source=gmb&utm_medium=organic&utm_campaign=local","tags":["organic","student-popular"]},
-  {"id":"grocery_10","name":"WinCo Foods","type":"supermarket","address":"300 E Bellis Fair Pkwy, Bellingham, WA 98226","latitude":48.78785324,"longitude":-122.4823914,"price_tier":"$","ebt":true,"website":"https://www.wincofoods.com/","hours_url":"https://www.wincofoods.com/","tags":["discount-pricing","bulk-produce","warehouse-size","student-popular"]},
-  {"id":"grocery_11","name":"Whole Foods Market","type":"supermarket","address":"1030 Lakeway Dr, Bellingham, WA 98229","latitude":48.7437181,"longitude":-122.461361,"price_tier":"$$$","ebt":true,"website":"https://www.wholefoodsmarket.com/stores/bellinghamlakeway?utm_source=google&utm_medium=organic&utm_campaign=listings","hours_url":"https://www.wholefoodsmarket.com/stores/bellinghamlakeway?utm_source=google&utm_medium=organic&utm_campaign=listings","tags":["organic","local-produce","premium-pricing"]},
-  {"id":"grocery_12","name":"Neighborhood Market","type":"specialty","address":"2019 Harris Ave, Bellingham, WA 98225","latitude":48.7202155,"longitude":-122.4914904,"price_tier":"$$","ebt":"unknown","website":null,"hours_url":null,"tags":["discount-pricing","bus-accessible","student-popular"]},
-  {"id":"grocery_13","name":"US Foods CHEF'STORE","type":"specialty","address":"405 Ohio St, Bellingham, WA 98225","latitude":48.7557051,"longitude":-122.4702926,"price_tier":"$$","ebt":"unknown","website":"https://www.chefstore.com/locations/store/bellingham-552/?utm_source=gbp&utm_medium=organic&utm_campaign=local","hours_url":"https://www.chefstore.com/locations/store/bellingham-552/?utm_source=gbp&utm_medium=organic&utm_campaign=local","tags":["bulk-wholesale","warehouse-size"]},
-  {"id":"grocery_14","name":"JJ'S IN AND OUT FOOD MART","type":"specialty","address":"2219 Douglas Ave, Bellingham, WA 98225","latitude":48.7239802,"longitude":-122.4879324,"price_tier":"$$","ebt":"unknown","website":null,"hours_url":null,"tags":["convenience-store","late-hours"]},
-  {"id":"grocery_15","name":"Walmart","type":"supermarket","address":"4420 Meridian St, Bellingham, WA 98226","latitude":48.801543,"longitude":-122.4821631,"price_tier":"$","ebt":true,"website":"https://www.walmart.com/store/2450-bellingham-wa?veh=seo_loc","hours_url":"https://www.walmart.com/store/2450-bellingham-wa?veh=seo_loc","tags":["discount-pricing","warehouse-size","late-hours","student-popular"]},
-  {"id":"grocery_16","name":"N State Street Market","type":"specialty","address":"902 N State St suite 103, Bellingham, WA 98225","latitude":48.7442245,"longitude":-122.4828832,"price_tier":"$$","ebt":"unknown","website":null,"hours_url":null,"tags":["convenience-store","close-to-campus"]},
-  {"id":"grocery_17","name":"Cornwall Corner Store","type":"specialty","address":"2230 Cornwall Ave, Bellingham, WA 98225","latitude":48.7601955,"longitude":-122.4747957,"price_tier":"$$","ebt":"unknown","website":"https://www.facebook.com/Cornwallcornerstore","hours_url":"https://www.facebook.com/Cornwallcornerstore","tags":["convenience-store","close-to-campus"]},
-  {"id":"grocery_18","name":"Walgreens","type":"specialty","address":"125 Samish Way, Bellingham, WA 98225","latitude":48.7344255,"longitude":-122.4694216,"price_tier":"$$$","ebt":true,"website":"https://www.walgreens.com/locator/walgreens-125+samish+way-bellingham-wa-98225/id=16095","hours_url":"https://www.walgreens.com/locator/walgreens-125+samish+way-bellingham-wa-98225/id=16095","tags":["pharmacy","convenience-store","late-hours"]}
+  {
+    "id": 1,
+    "name": "Haggen",
+    "type": "supermarket",
+    "latitude": 48.732674,
+    "longitude": -122.471785,
+    "address": "210 36th St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "local-produce",
+      "organic",
+      "student-popular"
+    ],
+    "website": "https://www.haggen.com/",
+    "hours_url": "https://local.haggen.com/wa/bellingham/210-36th-st.html"
+  },
+  {
+    "id": 2,
+    "name": "Haggen",
+    "type": "supermarket",
+    "latitude": 48.719084,
+    "longitude": -122.50142,
+    "address": "1401 12th St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "local-produce",
+      "organic",
+      "student-popular"
+    ],
+    "website": "https://www.haggen.com/",
+    "hours_url": "https://local.haggen.com/wa/bellingham/1401-12th-st.html"
+  },
+  {
+    "id": 3,
+    "name": "Haggen",
+    "type": "supermarket",
+    "latitude": 48.767671,
+    "longitude": -122.484351,
+    "address": "2814 Meridian St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "local-produce",
+      "organic",
+      "student-popular"
+    ],
+    "website": "https://www.haggen.com/",
+    "hours_url": "https://local.haggen.com/wa/bellingham/2814-meridian-st.html"
+  },
+  {
+    "id": 4,
+    "name": "Safeway",
+    "type": "supermarket",
+    "latitude": 48.7745687,
+    "longitude": -122.4585344,
+    "address": "1275 E Sunset Dr, Bellingham, WA 98226",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "late-hours",
+      "student-popular"
+    ],
+    "website": "https://www.safeway.com/?CMPID=ps_swy_eas_ecom_goo_20200803_7727860248_81363037156_301138611504&MerkleENT&psrc=g&gclsrc=aw.ds&gad_source=1&gad_campaignid=7727860248&gbraid=0AAAAADek7AjEQpVgvVY6Gy8HmEWatKmoa&gclid=CjwKCAiAh5XNBhAAEiwA_Bu8FTL4DbBp0jG8VdRB7c5NEek2YLVd5Jw4JR5Rb-M63xSlgoqZv4-b2xoC61cQAvD_BwE",
+    "hours_url": "https://local.safeway.com/safeway/wa/bellingham/1275-e-sunset-dr.html"
+  },
+  {
+    "id": 5,
+    "name": "Fred Meyer",
+    "type": "supermarket",
+    "latitude": 48.7435668,
+    "longitude": -122.4644652,
+    "address": "800 Lakeway Dr, Bellingham, WA 98229",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "late-hours",
+      "warehouse-size",
+      "student-popular"
+    ],
+    "website": "https://www.fredmeyer.com/",
+    "hours_url": "https://www.fredmeyer.com/stores/grocery/wa/bellingham/bellingham/701/00025?cid=loc_70100025_gmb"
+  },
+  {
+    "id": 6,
+    "name": "Fred Meyer",
+    "type": "supermarket",
+    "latitude": 48.7885061,
+    "longitude": -122.5115463,
+    "address": "1225 W Bakerview Rd, Bellingham, WA 98226",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "late-hours",
+      "warehouse-size",
+      "student-popular"
+    ],
+    "website": "https://www.fredmeyer.com/",
+    "hours_url": "https://www.fredmeyer.com/stores/grocery/wa/bellingham/north-bellingham/701/00667?cid=loc_70100667_gmb"
+  },
+  {
+    "id": 7,
+    "name": "Community Food Co-op",
+    "type": "co-op",
+    "latitude": 48.7473549,
+    "longitude": -122.4762175,
+    "address": "1220 N Forest St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bus-accessible",
+      "organic",
+      "local-produce",
+      "premium-pricing"
+    ],
+    "website": "https://communityfood.coop/",
+    "hours_url": "https://communityfood.coop/"
+  },
+  {
+    "id": 8,
+    "name": "Grocery Outlet",
+    "type": "discount",
+    "latitude": 48.7509716,
+    "longitude": -122.470626,
+    "address": "1600 Ellis St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$",
+    "tags": [
+      "bus-accessible",
+      "discount-pricing",
+      "student-popular"
+    ],
+    "website": "https://shop.groceryoutlet.com/store/grocery-outlet/storefront",
+    "hours_url": "https://www.groceryoutlet.com/circulars/storeid/115"
+  },
+  {
+    "id": 9,
+    "name": "Trader Joe's",
+    "type": "specialty",
+    "latitude": 48.762185,
+    "longitude": -122.464044,
+    "address": "2410 James St, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "organic",
+      "student-popular"
+    ],
+    "website": "https://www.traderjoes.com/home",
+    "hours_url": "https://locations.traderjoes.com/wa/bellingham/151/?utm_source=gmb&utm_medium=organic&utm_campaign=local"
+  },
+  {
+    "id": 10,
+    "name": "WinCo Foods",
+    "type": "supermarket",
+    "latitude": 48.78785324,
+    "longitude": -122.4823914,
+    "address": "300 E Bellis Fair Pkwy, Bellingham, WA 98226",
+    "ebt": true,
+    "price_tier": "$",
+    "tags": [
+      "discount-pricing",
+      "bulk-produce",
+      "warehouse-size",
+      "student-popular"
+    ],
+    "website": "https://www.wincofoods.com/",
+    "hours_url": "https://www.wincofoods.com/"
+  },
+  {
+    "id": 11,
+    "name": "Whole Foods Market",
+    "type": "supermarket",
+    "latitude": 48.7437181,
+    "longitude": -122.461361,
+    "address": "1030 Lakeway Dr, Bellingham, WA 98229",
+    "ebt": true,
+    "price_tier": "$$$",
+    "tags": [
+      "organic",
+      "local-produce",
+      "premium-pricing"
+    ],
+    "website": "https://www.wholefoodsmarket.com/",
+    "hours_url": "https://www.wholefoodsmarket.com/stores/bellinghamlakeway?utm_source=google&utm_medium=organic&utm_campaign=listings"
+  },
+  {
+    "id": 12,
+    "name": "Neighborhood Market",
+    "type": "specialty",
+    "latitude": 48.7202155,
+    "longitude": -122.4914904,
+    "address": "2019 Harris Ave, Bellingham, WA 98225",
+    "ebt": false,
+    "price_tier": "$$",
+    "tags": [
+      "discount-pricing",
+      "bus-accessible",
+      "student-popular"
+    ],
+    "website": "nan",
+    "hours_url": "nan"
+  },
+  {
+    "id": 13,
+    "name": "US Foods CHEF'STORE",
+    "type": "bulk",
+    "latitude": 48.7557051,
+    "longitude": -122.4702926,
+    "address": "405 Ohio St, Bellingham, WA 98225",
+    "ebt": false,
+    "price_tier": "$$",
+    "tags": [
+      "bulk-wholesale",
+      "warehouse-size"
+    ],
+    "website": "https://www.chefstore.com/",
+    "hours_url": "https://www.chefstore.com/locations/store/bellingham-552/?utm_source=gbp&utm_medium=organic&utm_campaign=local"
+  },
+  {
+    "id": 14,
+    "name": "JJ'S IN AND OUT FOOD MART",
+    "type": "specialty",
+    "latitude": 48.7239802,
+    "longitude": -122.4879324,
+    "address": "2219 Douglas Ave, Bellingham, WA 98225",
+    "ebt": false,
+    "price_tier": "$$",
+    "tags": [
+      "convenience-store",
+      "late-hours"
+    ],
+    "website": "nan",
+    "hours_url": "nan"
+  },
+  {
+    "id": 15,
+    "name": "Walmart",
+    "type": "supermarket",
+    "latitude": 48.801543,
+    "longitude": -122.4821631,
+    "address": "4420 Meridian St, Bellingham, WA 98226",
+    "ebt": true,
+    "price_tier": "$",
+    "tags": [
+      "discount-pricing",
+      "warehouse-size",
+      "late-hours",
+      "student-popular"
+    ],
+    "website": "https://www.walmart.com/",
+    "hours_url": "https://www.walmart.com/store/2450-bellingham-wa?veh=seo_loc"
+  },
+  {
+    "id": 16,
+    "name": "N State Street Market",
+    "type": "specialty",
+    "latitude": 48.7442245,
+    "longitude": -122.4828832,
+    "address": "902 N State St suite 103, Bellingham, WA 98225",
+    "ebt": false,
+    "price_tier": "$$",
+    "tags": [
+      "convenience-store",
+      "close-to-campus"
+    ],
+    "website": "nan",
+    "hours_url": "nan"
+  },
+  {
+    "id": 17,
+    "name": "Cornwall Corner Store",
+    "type": "specialty",
+    "latitude": 48.7601955,
+    "longitude": -122.4747957,
+    "address": "2230 Cornwall Ave, Bellingham, WA 98225",
+    "ebt": false,
+    "price_tier": "$$",
+    "tags": [
+      "convenience-store",
+      "close-to-campus"
+    ],
+    "website": "https://www.facebook.com/Cornwallcornerstore",
+    "hours_url": "https://www.facebook.com/Cornwallcornerstore"
+  },
+  {
+    "id": 18,
+    "name": "Walgreens",
+    "type": "specialty",
+    "latitude": 48.7344255,
+    "longitude": -122.4694216,
+    "address": "125 Samish Way, Bellingham, WA 98225",
+    "ebt": true,
+    "price_tier": "$$$",
+    "tags": [
+      "pharmacy",
+      "convenience-store",
+      "late-hours"
+    ],
+    "website": "https://www.walgreens.com/",
+    "hours_url": "https://www.walgreens.com/locator/walgreens-125+samish+way-bellingham-wa-98225/id=16095"
+  },
+  {
+    "id": 19,
+    "name": "Costco Wholesale",
+    "type": "bulk",
+    "latitude": 48.798598,
+    "longitude": -122.445452,
+    "address": "4125 Arctic Ave, Bellingham, WA 98226",
+    "ebt": true,
+    "price_tier": "$$",
+    "tags": [
+      "bulk-wholesale",
+      "warehouse-size",
+      "discount-pricing"
+    ],
+    "website": "https://www.costco.com/",
+    "hours_url": "https://www.costco.com/warehouse-locations/bellingham-WA-1216.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link"
+  }
 ]
