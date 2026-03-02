@@ -325,3 +325,85 @@ header {
   border-radius: 16px;
   overflow: hidden;
 }
+/* ---------- Top header (override) ---------- */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 12px 16px;
+  background: #dbeeff;           /* light blue */
+  border-bottom: 2px solid #c8942a;
+}
+
+.header-brand{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+}
+
+.brand-logo{
+  height: 44px;
+  width: auto;
+  display:block;
+}
+
+.brand-title{
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: #0b2b5a;
+}
+
+.brand-sub{
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: rgba(11,43,90,.7);
+}
+
+.header-actions{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+}
+
+/* Buttons */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration:none;
+  border: 1px solid rgba(11,43,90,.25);
+  background: rgba(255,255,255,.65);
+  color: #0b2b5a;
+}
+
+.btn:hover{ transform: translateY(-1px); }
+
+.btn-primary{
+  background: #c8942a;
+  border-color: #c8942a;
+  color: #0b2b5a;
+}
+
+.btn-secondary{
+  background: rgba(255,255,255,.85);
+}
+
+.btn-icon{
+  display:inline-flex;
+  width: 18px;
+  height: 18px;
+  align-items:center;
+  justify-content:center;
+  border-radius: 6px;
+  background: rgba(255,255,255,.35);
+}
+
+/* Make sure map is visible */
+#map{
+  width: 100%;
+  height: calc(100vh - 140px);
+}
