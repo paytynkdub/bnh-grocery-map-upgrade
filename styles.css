@@ -319,3 +319,9 @@ header {
   transform: translateY(-1px);
 }
 #btn-wta { display: inline-flex !important; }
+#map{
+  width: 100%;
+  height: calc(100vh - 160px);
+  border-radius: 16px;
+  overflow: hidden;
+}
