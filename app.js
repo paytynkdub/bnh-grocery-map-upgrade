@@ -15,7 +15,11 @@ const TYPE_ICON = {
 /* ── Active filters ─────────────────────────────────────────────────── */
 let activeFilters = new Set();
 let allLocations  = [];
+let totalCount    = 0;
 let markerMap     = {};   // id → L.marker
+
+const statusEl = document.getElementById('filter-status');
+const clearBtn = document.getElementById('clear-filters');
 
 /* ── Map init ───────────────────────────────────────────────────────── */
 const map = L.map('map', {
@@ -108,8 +112,16 @@ function renderMarkers(locations) {
     clusterGroup.addLayer(marker);
   });
 
-  document.getElementById('store-count').textContent =
-    `${locations.length} store${locations.length !== 1 ? 's' : ''}`;
+  if (statusEl) {
+  const shown = locations.length;
+  const total = totalCount || allLocations.length || shown;
+
+  if (activeFilters.size === 0) {
+    statusEl.textContent = `Showing all ${total} stores`;
+  } else {
+    statusEl.textContent = `Showing ${shown} of ${total} stores • ${activeFilters.size} filter${activeFilters.size !== 1 ? 's' : ''} active`;
+  }
+}
 }
 
 /* ── Filter logic ───────────────────────────────────────────────────── */
@@ -139,6 +151,7 @@ function applyFilters() {
 document.querySelectorAll('.filter-chip').forEach(chip => {
   chip.addEventListener('click', () => {
     const f = chip.dataset.filter;
+
     if (activeFilters.has(f)) {
       activeFilters.delete(f);
       chip.classList.remove('active');
@@ -147,10 +160,31 @@ document.querySelectorAll('.filter-chip').forEach(chip => {
       activeFilters.add(f);
       chip.classList.add('active');
       chip.setAttribute('aria-pressed', 'true');
+
     }
+
     applyFilters();
+    updateClearButton();
   });
 });
+function updateClearButton() {
+  if (!clearBtn) return;
+  clearBtn.disabled = activeFilters.size === 0;
+}
+
+if (clearBtn) {
+  clearBtn.addEventListener('click', () => {
+    activeFilters.clear();
+
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+      chip.classList.remove('active');
+      chip.setAttribute('aria-pressed', 'false');
+    });
+
+    renderMarkers(allLocations);
+    updateClearButton();
+  });
+}
 
 /* ── Load data ──────────────────────────────────────────────────────── */
 fetch(DATA_URL)
@@ -163,6 +197,10 @@ fetch(DATA_URL)
     renderMarkers(allLocations);
   })
   .catch(err => {
-    console.error('Failed to load locations.json:', err);
-    document.getElementById('store-count').textContent = 'Error loading data';
-  });
+  console.error('Failed to load locations.json:', err);
+
+  const status = document.getElementById('filter-status');
+  if (status) {
+    status.textContent = 'Error loading data';
+  }
+});

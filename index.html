@@ -48,36 +48,32 @@
   </div>
 </header>
 
-  <!-- ── Filter bar ───────────────────────────────────────────────── -->
-  <div id="filter-bar" role="group" aria-label="Filter grocery stores">
-    <span class="filter-label">Filter:</span>
+ <!-- ── Filter bar ───────────────────────────────────────────────── -->
+<div id="filter-bar" role="group" aria-label="Filter grocery stores">
+  <span class="filter-label">Filter:</span>
 
-    <button class="filter-chip" data-filter="ebt"
-            aria-pressed="false">EBT Accepted</button>
+  <button class="filter-chip" data-filter="ebt" aria-pressed="false">EBT Accepted</button>
+  <button class="filter-chip" data-filter="discount" aria-pressed="false">Budget-Friendly</button>
+  <button class="filter-chip" data-filter="supermarket" aria-pressed="false">🛒 Supermarket</button>
+  <button class="filter-chip" data-filter="specialty" aria-pressed="false">🏪 Specialty</button>
+  <button class="filter-chip" data-filter="co-op" aria-pressed="false">🌱 Co-op</button>
+  <button class="filter-chip" data-filter="bulk" aria-pressed="false">📦 Bulk</button>
 
-    <button class="filter-chip" data-filter="discount"
-            aria-pressed="false">Budget-Friendly</button>
+  <!-- Optional but recommended if app.js still references it -->
+  <span id="store-count" aria-live="polite" aria-atomic="true"></span>
 
-    <button class="filter-chip" data-filter="supermarket"
-            aria-pressed="false">🛒 Supermarket</button>
+  <span id="filter-status" aria-live="polite" aria-atomic="true">Loading…</span>
 
-    <button class="filter-chip" data-filter="specialty"
-            aria-pressed="false">🏪 Specialty</button>
-
-    <button class="filter-chip" data-filter="co-op"
-            aria-pressed="false">🌱 Co-op</button>
-
-    <span id="store-count" aria-live="polite" aria-atomic="true">Loading…</span>
-  </div>
-
-  <!-- ── Map ──────────────────────────────────────────────────────── -->
-  <div id="map" role="application" aria-label="Grocery store map"></div>
-
+  <button id="clear-filters" class="filter-clear" type="button" aria-label="Clear all filters" disabled>
+    Clear Filters
+  </button>
 </div>
 
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLEo=" crossorigin=""></script>
+<!-- ── Map ──────────────────────────────────────────────────────── -->
+<div id="map" role="application" aria-label="Grocery store map"></div>
+
+</div> <!-- end #app -->
+
 <!-- Marker Cluster JS -->
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
